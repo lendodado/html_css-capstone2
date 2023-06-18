@@ -1,0 +1,148 @@
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+.right-margin {
+    margin-right: 3rem;
+}
+
+.left-margin {
+    margin-left: 3rem;
+}
+
+p {
+    line-height: 1.6;
+    max-width: 40ch;
+    letter-spacing: 0.05rem;
+    margin: 0;
+}
+
+.nav-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #fcf0e1e7;
+    width: 100vw;
+    box-shadow: 0rem 0.01rem 0.5rem grey
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 7rem;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.nav-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-text {
+    padding: 0rem 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem 7rem;
+    max-width: 1200px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.hero {
+    padding-top: 15rem;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.5em;
+    border-radius: 3rem;
+    overflow: hidden;
+    border: 3px solid;
+    box-shadow: -1.5rem 1.5rem lightgrey;
+}
+
+.grid-pic {
+    height: 250px;
+}
+
+.hero-title {
+    font-size: 7rem;
+    width: 550px;
+    font-family: 'Wallpoet', cursive;
+    text-shadow: -0.5rem 0.5rem lightgrey;
+    margin: 0px;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    letter-spacing: .1rem;
+    line-height: 1.6;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.underline {
+    text-decoration: underline 5px cyan;
+}
+
+.section-title {
+    font-size: 5rem;
+    max-width: 600px;
+    font-family: 'Wallpoet', cursive;
+    text-shadow: -0.5rem 0.5rem lightgrey;
+    margin: 0px;
+    padding-bottom: 2rem;
+}
+
+.pic-container {
+    height: 450px;
+    width: 450px;
+    border-radius: 3rem;
+    overflow: hidden;
+    border: 3px solid;
+    box-shadow: 1.5rem -1.5rem lightgrey;
+    background-color: cyan;
+}
+
+.pic {
+    height: 100%;
+}
+
+.footer {
+    padding-bottom: 3rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+a:active {
+    color: green;
+}
